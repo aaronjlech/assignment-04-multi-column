@@ -1,0 +1,170 @@
+*{
+   box-sizing: border-box;
+}
+
+img{
+   display: block;
+   width: 100%;
+}
+
+
+body{
+   margin: 0;
+   background: #999;
+   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+#app-container{
+   max-width: 960px;
+   background: #fff;
+   margin-left: auto;
+   margin-right: auto;
+
+
+}
+.column-container{
+   font-size: 0;
+}
+
+.column-container > *{
+   font-size: medium;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.nav-header{
+   margin: 0;
+   background: #353535;
+
+}
+.logo-image{
+   width: 20%;
+   height: 10%;
+
+}
+
+.title-image{
+   width: 60%;
+   height: 20%;
+
+}
+
+.nav-bar-links div{
+   margin: auto;
+   padding: 4px;
+}
+
+.nav-bar-links a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 14px;
+}
+
+.directory{
+   margin-top: 20px;
+   margin-left: 40px;
+
+}
+
+.directory div a{
+   text-decoration: none;
+   font-size: 14px;
+
+}
+
+.left-links a{
+   color: #5080b1;
+
+}
+.left-links{
+   margin-right: 10px;
+   background: #FCF7E5;
+   padding: 6px;
+}
+.mfah-link a{
+   color: #777;
+}
+
+.mfah-link{
+   background: #DCEDF5;
+   padding: 6px;
+}
+
+.main-body{
+   margin-left: 20px;
+
+}
+.major-left-column{
+   width: 50%;
+   border-top: 1px #777 solid;
+}
+.major-left-column p{
+   font-size: 12px;
+}
+
+.article-one{
+   border-bottom: 1px #777 solid;
+   padding-bottom: 10px;
+}
+
+.article-two{
+   border-bottom: 1px #777 solid;
+   padding-bottom: 10px;
+}
+
+.text-three{
+   width: 49%;
+}
+.image-three{
+   width: 50%
+
+}
+
+.link-three a{
+   font-size: 12px;
+   text-decoration: none;
+
+}
+.article-three{
+border-bottom: 1px #777 solid;
+padding-bottom: 10px;
+
+}
+.image-four{
+   width: 49%;
+}
+.text-four{
+   width: 50%;
+
+}
+.text-four h4{
+   font-style: italic;
+   margin: 0;
+}
+.article-four{
+   border-bottom: 1px #777 solid;
+   padding-bottom: 10px;
+}
+.bottom-contact{
+   margin-left: 10px;
+}
+.bottom-contact div{
+   font-size: 8px;
+   font-weight: bold;
+   margin: 1%;
+
+}
+.info{
+   font-weight: lighter;;
+}
+.bottom-contact div a{
+   text-decoration: none;
+   color: #000;
+}
+.arrow{
+   color: #CE624F;
+}
+.major-right-column{
+   width: 20%;
+   font-size: 12px;
+}
