@@ -76,6 +76,7 @@ body{
 
 .left-links a{
    color: #5080b1;
+   font-weight: bold;
 
 }
 .left-links{
@@ -221,18 +222,33 @@ padding-top: 10px;
    font-weight: bold;
    font-size: 16px;
 }
-
+/*fixed element styling*/
 .fixed-element{
    position: fixed;
-   height: 10%;
-   width: 20%;
+   height: 75px;
+   width: 175px;
    right: 10px;
    bottom: 50px;
-   background: #0067A3;
+   background: rgba(0,103,163, .75);
+   padding-left: 5px;
 }
 .fixed-element a{
    color: #fff;
    font-size:10px;
    text-decoration: none;
    font-weight: bold;
+   padding-bottom: 5px;
+}
+.fixed-links{
+   margin-right: 20%;
+}
+.fixed-links i{
+   color: #CE624F;
+}
+.search input{
+margin-right: auto;
+
+}
+.search button{
+   margin-left: auto;
 }
