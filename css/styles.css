@@ -19,6 +19,8 @@ body{
    background: #fff;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 20px;
+   border: 1px solid #555;
 
 
 }
@@ -95,16 +97,20 @@ body{
 
 }
 .major-left-column{
-   width: 50%;
-   border-top: 1px #777 solid;
+   width: 73%;
+   margin-right: 2%;
+
 }
+
 .major-left-column p{
    font-size: 12px;
 }
 
 .article-one{
    border-bottom: 1px #777 solid;
+   border-top: 1px #777 solid;
    padding-bottom: 10px;
+
 }
 
 .article-two{
@@ -142,16 +148,17 @@ padding-bottom: 10px;
    margin: 0;
 }
 .article-four{
-   border-bottom: 1px #777 solid;
    padding-bottom: 10px;
 }
 .bottom-contact{
+   border-top: 1px #777 solid;
    margin-left: 10px;
+   margin-right: 10px;
 }
 .bottom-contact div{
    font-size: 8px;
    font-weight: bold;
-   margin: 1%;
+   margin: 2% 9% 2% 0;
 
 }
 .info{
@@ -165,6 +172,67 @@ padding-bottom: 10px;
    color: #CE624F;
 }
 .major-right-column{
-   width: 20%;
+   width: 23%;
+   margin-top: 10px;
+   margin-right: 2%;
+
+}
+
+
+.event-info{
+   color: #999;
+   font-size: 10px;
+   width: 60%;
+   /*margin-top: -15px;*/
+   padding: 0;
+
+}
+.event-info h4{
+   margin: 0 auto;
+
+
+}
+.event-img{
+   width: 23%;
+   margin-top: auto;
+}
+.event-info a{
+   text-decoration: none;
+   font-weight: bold;
+   color: #4F84BA;
+   margin-bottom: 0;
+}
+.event-info p{
+   margin-top: 2%;
+   color: #000;
+}
+.dashed{
+   border-top: 1px dashed #ccc;
+padding-top: 10px;
+}
+#view{
+   text-decoration: none;
+   color: #4F84BA;
    font-size: 12px;
+   margin-left: 130px;
+
+}
+#view span{
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.fixed-element{
+   position: fixed;
+   height: 10%;
+   width: 20%;
+   right: 10px;
+   bottom: 50px;
+   background: #0067A3;
+}
+.fixed-element a{
+   color: #fff;
+   font-size:10px;
+   text-decoration: none;
+   font-weight: bold;
 }
