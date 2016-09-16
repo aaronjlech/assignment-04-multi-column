@@ -247,8 +247,11 @@ padding-top: 10px;
 }
 .search input{
 margin-right: auto;
+font-size: 0;
 
 }
 .search button{
+   border-width: 1px;
+   border-left-width: 0px;
    margin-left: auto;
 }
